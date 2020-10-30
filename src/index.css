@@ -1,34 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
-
-
 *{
-  font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-  background:black;
+    background:#924FAB;
+    font-family: 'Lucida Sans', sans-serif;
 }
 
 div{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin: 6% 10%;
-  flex-direction: column;
-  color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8% 20%;
 }
 
-h1{
-  font-size:18vh;
-  font-weight: bolder;
+div>h1{
+    color: #EFE2F9;
+    margin: 10px;
+    text-shadow: 4px 4px 4px rgb(29, 29, 29);
 }
 
-button{
-  color: #fff;
-  background:rgb(154,100,181);
-  border: 2px solid white;
-  border-radius:4px;
-  font-size: 20px;
-  padding: 15px 25px;
-  font-weight: bolder;
+div>input{
+    background:#D1D9DD;
+    border:none;
+    outline: none;
+    margin:10px;
+    padding:10px 200px;
+    font-size: 20px;
+    text-align: center;
+    color: #98A0A4;
+}
+
+div>button{
+    background:#924FAB;
+    border: 2px solid #EFE2F9;
+    color: #EFE2F9;
+    border-radius: 8px;
+    padding:5px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
